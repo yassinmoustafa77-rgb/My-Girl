@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Heart's Book</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="login-screen" class="screen active">
+        <div class="login-card">
+            <h1>Secret Love Code</h1>
+            <p>Please enter our special code to open my heart...</p>
+            <div class="code-inputs">
+                <input type="text" maxlength="1" class="code-input" data-index="0">
+                <input type="text" maxlength="1" class="code-input" data-index="1">
+                <input type="text" maxlength="1" class="code-input" data-index="2">
+                <input type="text" maxlength="1" class="code-input" data-index="3">
+            </div>
+            <p id="error-msg" class="error-msg"></p>
+        </div>
+    </div>
+
+    <div id="book-screen" class="screen">
+        <div class="book-container">
+            <div class="book-page">
+                <div class="page-content">
+                    <div id="content-image" class="image-container">
+                        <!-- Image will be injected via JS -->
+                    </div>
+                    <div id="content-text" class="text-container">
+                        <!-- Text will be injected via JS -->
+                    </div>
+                </div>
+                <div class="navigation">
+                    <button id="prev-btn" class="nav-btn">Previous Page</button>
+                    <button id="next-btn" class="nav-btn">Next Page</button>
+                </div>
+            </div>
+        </div>
+        <div class="floating-hearts"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
