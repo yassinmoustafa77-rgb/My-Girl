@@ -1,4 +1,4 @@
-const SECRET_CODE = "BHBK";
+const SECRET_CODE = "mwah";
 
 // --- CUSTOMIZE YOUR CONTENT HERE ---
 const bookContent = [
@@ -129,4 +129,5 @@ function createFloatingHearts() {
         }, 5000);
     }, 300);
 }
+
 
