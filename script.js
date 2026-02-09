@@ -13,10 +13,22 @@ const bookContent = [
     {
         image: "images/WhatsApp Image 2026-02-06 at 7.20.07 AM.png",
         text: "TOO MORE SOKAR AFTER EXAMS WITH MY BABY"
+    },    
+    {
+        image: "images/WhatsApp Image 2026-02-10 at 12.21.40 AM.png",
+        text: "Bahbekk missed the center day <3"
     },
     {
         image: "images/WhatsApp Image 2026-02-06 at 6.18.59 AM.png",
-        text: "I love you more than anything in this world ❤️"
+        text: "I love you more than anything in this world "
+    },
+    {
+        image: "images/WhatsApp Image 2026-02-10 at 12.22.04 AM.png",
+        text: "Shopping with my baeee"
+    },
+    {
+        image: "images/WhatsApp Image 2026-02-10 at 12.22.18 AM.png",
+        text: "I'd Sneak in everyday just to see you even for a min 😘"
     }
 ];
 // ------------------------------------
@@ -129,5 +141,6 @@ function createFloatingHearts() {
         }, 5000);
     }, 300);
 }
+
 
 
